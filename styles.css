@@ -1321,6 +1321,12 @@ img {
         margin-bottom: 1rem;
         width: 100%;
     }
+    .footer-header {
+        margin-top: 1.5rem;
+    }
+    .other-info {
+        margin-top: 0.5rem;
+    }
 } /* Base styles */
 /* Base styles */
 /* Base styles */
