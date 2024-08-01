@@ -605,8 +605,8 @@ img {
     overflow-x: hidden;
 }
 .testimonial-section-inner {
-    animation: nonStop 100s linear 0s infinite normal none running;
-    -webkit-animation: nonStop 100s linear 0s infinite normal none running;
+    animation: nonStop 50s linear 0s infinite normal none running;
+    -webkit-animation: nonStop 50s linear 0s infinite normal none running;
     display: flex;
     margin-top: 55px;
     /* min-width: 280rem; */
