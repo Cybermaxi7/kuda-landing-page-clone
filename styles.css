@@ -808,7 +808,7 @@ img {
 .card-text--subText {
     font-family: Mulish;
     font-size: 1.6rem;
-    font-weight: 400;
+    font-weight: 400 !important;
     line-height: 2.6rem;
     color: var(--color-black);
 }
