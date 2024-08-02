@@ -5,6 +5,7 @@ const mobileHeader = document.querySelector(".mobile-header");
 const cookiesContainer = document.querySelector(".cookies-container");
 const getAppBtn = document.querySelector(".get-app-btn");
 const getKudaApp = document.querySelector(".get-kuda-app");
+const container = document.querySelector(".container");
 const dismissBtn = document.getElementById("dismiss");
 document.addEventListener("DOMContentLoaded", function () {
     mobileToggle.addEventListener("click", function () {
@@ -39,6 +40,7 @@ window.addEventListener("resize", handleResize);
 dismissBtn.addEventListener("click", () => {
     cookiesContainer.style.display = "none";
     desktopHeader.style.top = 0;
+    container.style.marginTop = "6rem";
 });
 getAppBtn.addEventListener("click", () => {
     getKudaApp.style.display = "none";
